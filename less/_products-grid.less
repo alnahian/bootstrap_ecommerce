@@ -97,6 +97,13 @@
 		content: @fa-var-square-o;
 		width: (18em / 14);
 		text-align: center;
+		
+		&:hover:before,
+		&:focus:before,
+		&:active:before,
+		.active &:before {
+			content: @fa-var-check-square-o;
+		}
 	  }
     }
   }

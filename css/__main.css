@@ -6763,6 +6763,12 @@ fieldset[disabled] .grid-options .options-list li a {
   width: 1.2857142857142858em;
   text-align: center;
 }
+.grid-options .options-list li:before:hover:before,
+.grid-options .options-list li:before:focus:before,
+.grid-options .options-list li:before:active:before,
+.active .grid-options .options-list li:before:before {
+  content: "\f046";
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
