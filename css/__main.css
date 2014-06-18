@@ -6535,6 +6535,9 @@ footer[role="contentinfo"] ul.social > li > a:hover {
   background-color: #162c42;
   color: #ffffff;
 }
+.pagination-wrap {
+  text-align: center;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
