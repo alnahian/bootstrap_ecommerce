@@ -6451,30 +6451,30 @@ main {
   padding-top: 20px;
   padding-bottom: 40px;
 }
-main [class*="col-"] h1,
-main [class*="col-"] h2,
-main [class*="col-"] h3,
-main [class*="col-"] h4 {
+.home main [class*="col-"] h1,
+.home main [class*="col-"] h2,
+.home main [class*="col-"] h3,
+.home main [class*="col-"] h4 {
   clear: both;
   padding-top: 20px;
 }
 @media (min-width: 768px) {
-  main [class*="col-"] h1:first-child,
-  main [class*="col-"] h2:first-child,
-  main [class*="col-"] h3:first-child,
-  main [class*="col-"] h4:first-child {
+  .home main [class*="col-"] h1:first-child,
+  .home main [class*="col-"] h2:first-child,
+  .home main [class*="col-"] h3:first-child,
+  .home main [class*="col-"] h4:first-child {
     margin-top: 0;
     padding-top: 0;
   }
 }
-main .content-primary {
+.home main [class*="col-"] .content-primary {
   font-size: 17px;
 }
-main .content-tertiary {
+.home main [class*="col-"] .content-tertiary {
   font-size: 13px;
 }
 @media (max-width: 768px) {
-  main [class*="col-"] {
+  .home main [class*="col-"] [class*="col-"] {
     clear: both;
   }
 }
