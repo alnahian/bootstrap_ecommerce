@@ -75,6 +75,10 @@
   
     li {
 	  .make-xs-column(6);
+	  @media screen and (max-width: @screen-xs-max) {
+		.make-xs-column(4);
+	  }
+	  
       a {
          .btn;
 		 .btn-sm;

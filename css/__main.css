@@ -6722,6 +6722,16 @@ footer[role="contentinfo"] ul.social > li > a:hover {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media screen and (max-width: 767px) {
+  .grid-options .options-list li {
+    position: relative;
+    float: left;
+    width: 33.33333333333333%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 .grid-options .options-list li a {
   display: inline-block;
   margin-bottom: 0;
