@@ -6538,27 +6538,9 @@ footer[role="contentinfo"] ul.social > li > a:hover {
 .pagination-wrap {
   text-align: center;
 }
-.product-item {
-  padding-bottom: 32px;
-  height: 360px;
-  overflow: hidden;
-}
-.product-item img {
-  width: 100%;
-}
-.product-item h2 {
-  font-size: 17px;
-  line-height: 1.2;
-  padding: 0 !important;
-  margin-top: 6px;
-  margin-bottom: 2px;
-}
-.product-item p {
-  font-size: 13px;
-  line-height: 1.3;
-  color: #777777;
-}
 .grid-options {
+  padding-top: 12px;
+  padding-bottom: 24px;
   margin-bottom: 20px;
   background-color: #ffffff;
   border: 1px solid transparent;
@@ -6566,8 +6548,10 @@ footer[role="contentinfo"] ul.social > li > a:hover {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   border-color: #dddddd;
-  padding-top: 12px;
-  padding-bottom: 24px;
+  max-width: 480px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .grid-options > .list-group {
   margin-bottom: 0;
@@ -6656,31 +6640,6 @@ footer[role="contentinfo"] ul.social > li > a:hover {
   line-height: 1.2;
   color: #454545;
 }
-.choose-clearance {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 92.5%;
-  padding-top: 20px;
-  padding-bottom: 12px;
-  white-space: normal;
-  position: relative;
-}
-.choose-clearance h3 {
-  font-weight: normal;
-  color: #fff;
-  padding-top: 4px;
-  margin: 6px;
-}
-.choose-clearance p {
-  margin: 6px 20px;
-  line-height: 1.2;
-}
-.choose-clearance .icon {
-  position: absolute;
-  top: 0;
-  right: 2px;
-}
 .grid-options > h3 {
   font-size: 17px;
   line-height: 1.2;
@@ -6690,7 +6649,6 @@ footer[role="contentinfo"] ul.social > li > a:hover {
 .grid-options .options-list {
   margin-left: -15px;
   margin-right: -15px;
-  max-width: 480px;
   list-style-type: none;
   padding-left: 0;
 }
@@ -6786,13 +6744,13 @@ fieldset[disabled] .grid-options .options-list li a {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-.grid-options .options-list li:hover,
-.grid-options .options-list li:focus,
-.grid-options .options-list li:active,
-.active .grid-options .options-list li {
+.grid-options .options-list li a:hover,
+.grid-options .options-list li a:focus,
+.grid-options .options-list li a:active,
+.active .grid-options .options-list li a {
   color: #3e7dbd;
 }
-.grid-options .options-list li:before {
+.grid-options .options-list li a:before {
   display: inline-block;
   font-family: FontAwesome;
   font-style: normal;
@@ -6804,11 +6762,56 @@ fieldset[disabled] .grid-options .options-list li a {
   width: 1.2857142857142858em;
   text-align: center;
 }
-.grid-options .options-list li:before:hover:before,
-.grid-options .options-list li:before:focus:before,
-.grid-options .options-list li:before:active:before,
-.active .grid-options .options-list li:before:before {
+.grid-options .options-list li a:hover:before,
+.grid-options .options-list li a:focus:before,
+.grid-options .options-list li a:active:before,
+.active .grid-options .options-list li a:before {
   content: "\f046";
+}
+.choose-clearance {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  white-space: normal;
+  position: relative;
+}
+.choose-clearance h3 {
+  font-weight: normal;
+  color: #fff;
+  padding-top: 4px;
+  margin: 6px;
+}
+.choose-clearance p {
+  margin: 6px 20px;
+  line-height: 1.2;
+}
+.choose-clearance .icon {
+  position: absolute;
+  top: 0;
+  right: 2px;
+}
+.product-item {
+  height: 360px;
+  overflow: hidden;
+  padding-bottom: 32px;
+}
+.product-item img {
+  width: 100%;
+}
+.product-item h2 {
+  font-size: 17px;
+  line-height: 1.2;
+  padding: 0 !important;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+.product-item p {
+  font-size: 13px;
+  line-height: 1.3;
+  color: #777777;
 }
 @media (min-width: 768px) {
   .options-panel {
