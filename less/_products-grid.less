@@ -70,9 +70,8 @@
   .options-list {
    list-style-type: none;
    padding-left: 0;
-  }
   
-   li {
+    li {
       a {
          .btn;
 		 .btn-sm;
@@ -86,5 +85,19 @@
       .active & {
 		color: @link-color;
 	  }
-   }
+	  
+	  &:before	{
+	    display: inline-block;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		content: @fa-var-square-o;
+		width: (18em / 14);
+		text-align: center;
+	  }
+    }
+  }
 }
