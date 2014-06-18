@@ -6810,6 +6810,14 @@ fieldset[disabled] .grid-options .options-list li a {
 .active .grid-options .options-list li:before:before {
   content: "\f046";
 }
+@media (min-width: 768px) {
+  .options-panel {
+    display: block;
+  }
+  .options-panel-toggle {
+    display: none;
+  }
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
